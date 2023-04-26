@@ -1,0 +1,9 @@
+runners:
+  - name: "cirun-n1-standard"
+    cloud: "gcp"
+    instance_type: "n1-standard-1"
+    machine_image: "ubuntu-minimal-2004-lts"
+    preemptible: false
+    region: "us-central1-b"
+    labels:
+      - "cirun-n1-standard"
