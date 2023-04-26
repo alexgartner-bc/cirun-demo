@@ -12,7 +12,7 @@ on:
 jobs:
 
   build:
-    runs-on: ["cirun-n1-standard"]
+    runs-on: ["cirun-n1-standard--${{ github.run_id }}"]
     steps:
     - uses: actions/checkout@v3
 
